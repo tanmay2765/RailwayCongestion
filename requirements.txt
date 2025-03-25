@@ -1,3 +1,7 @@
+seaborn
+os
+scikit-learn
+joblib
 pandas
 gunicorn
 flask
