@@ -10,3 +10,4 @@ setuptools==78.0.2
 wheel==0.45.1
 matplotlib
 
+flask_cors
