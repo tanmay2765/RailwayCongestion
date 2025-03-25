@@ -8,9 +8,13 @@
 
 import pandas as pd
 import numpy as np
+import os
 
-# Load the dataset
-df = pd.read_csv("/Users/tanmaydhiman/ml_project/ml_project")
+# Use relative path
+csv_file = os.path.join(os.path.dirname(__file__), "Railway_Congestion_Data.csv")
+
+# Read CSV
+df = pd.read_csv(csv_file)
 
 # Convert date column to datetime
 df["Date"] = pd.to_datetime(df["Date"])
