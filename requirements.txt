@@ -1,3 +1,6 @@
+pandas
+gunicorn
+flask
 gunicorn==23.0.0
 jsonpointer==2.1
 setuptools==78.0.2
