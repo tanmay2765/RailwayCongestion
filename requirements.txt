@@ -1,5 +1,4 @@
 seaborn
-os
 scikit-learn
 joblib
 pandas
